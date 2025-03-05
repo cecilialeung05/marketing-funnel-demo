@@ -43,14 +43,12 @@ Many marketing teams struggle to measure which campaigns and interactions lead t
 
 ---
           
-          GA4_Realtime_Overview.png
-GTM_Tags.png
 ## Gallery
 
-![GA4 Realtime Overview](assets/GA4_Realtime_Overview.png)
+! [GA4 Realtime Overview](GA4_Realtime_Overview.png)
 Displays real-time user activity in GA4 and confirms that events (e.g., sign_up_click) are being sent.
 
-![GTM Tags](assets/GTM_Tags.png)
+! [GTM Tags](GTM_Tags.png)
 Shows key GTM tags (GA4 configuration and event tags) tracking user interactions.
 
 ---
