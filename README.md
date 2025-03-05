@@ -43,6 +43,8 @@ Many marketing teams struggle to measure which campaigns and interactions lead t
 
 ---
           
+          GA4_Realtime_Overview.png
+GTM_Tags.png
 ## Gallery
 
 ![GA4 Realtime Overview](assets/GA4_Realtime_Overview.png)
