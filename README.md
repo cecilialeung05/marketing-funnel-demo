@@ -6,7 +6,6 @@ A lightweight demo showcasing a **marketing funnel** with integrated **Google Ta
 [Marketing Funnel Demo on Vercel](https://marketing-funnel-demo.vercel.app/)
 
 ---
----
 
 ## Overview
 
@@ -38,16 +37,36 @@ Many marketing teams struggle to measure which campaigns and interactions lead t
 
 - **Front End**: HTML, CSS  
 - **Analytics**: Google Tag Manager (GTM), Google Analytics 4 (GA4)  
-- **Deployment**: [Vercel](https://vercel.com/)  
+- **Deployment**: [Click for Demo!](https://vercel.com/)  
 - **(Optional) CRM Integration**: HubSpot
+*(Note: GTM and GA4 are products of Google.)*
+
+---
+          
+## Gallery
+
+![GA4 Realtime Overview](assets/GA4_Realtime_Overview.png)
+Displays real-time user activity in GA4 and confirms that events (e.g., sign_up_click) are being sent.
+
+![GTM Tags](assets/GTM_Tags.png)
+Shows key GTM tags (GA4 configuration and event tags) tracking user interactions.
 
 ---
 
-## Project Structure
 
-```bash
-marketing-funnel-demo/
-├── index.html       # Main landing page
-├── pricing.html     # (Optional) Pricing page
-├── styles.css       # External stylesheet
-└── ...             # GTM, GA4, or HubSpot snippets are integrated in index.html
+## What I Learned 
+
+- **Google Tag Manager** setup for button click and form submission triggers. 
+- **Google Analytics 4** configuration, custom event creation, and DebugView validation.
+- **Front-End best practices** a clean HTML/CSS structure that’s easy to integrate with tracking scripts.
+- **Deeployment with Vercel** for a fast, shareable demo environment.
+
+--
+
+License
+This project is licensed under the MIT License – you’re free to modify and use it for your own learning or portfolio.
+
+-- 
+
+Thank You!
+Feel free to explore the live demo and interact with the site to see how events are tracked in real time. If you have any questions or feedback, don’t hesitate to reach out! ☺ 
