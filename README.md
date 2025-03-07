@@ -43,13 +43,18 @@ Many marketing teams struggle to measure which campaigns and interactions lead t
 
 ---
           
-## Gallery
+## Gallery 
 
 ! [GA4 Realtime Overview](GA4_Realtime_Overview.png)
 Displays real-time user activity in GA4 and confirms that events (e.g., sign_up_click) are being sent.
 
 ! [GTM Tags](GTM_Tags.png)
 Shows key GTM tags (GA4 configuration and event tags) tracking user interactions.
+
+![HubSpot Submission](HubSpot_Submission.png)  
+Confirms that form submissions are successfully captured in HubSpot, showing the “John Doe” test contact and matching submission details.
+
+Everything has been validated, and all success criteria are met—form submissions, event tracking, and CRM sync are functioning as expected.
 
 ---
 
