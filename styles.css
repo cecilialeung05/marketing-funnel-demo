@@ -62,7 +62,7 @@ body {
   max-width: 650px;
   margin: -2.5rem auto 3rem;
   background: #fff;
-  padding: 2.5rem;
+  padding: 3rem;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.03);
   position: relative;
@@ -76,11 +76,11 @@ body {
   color: #2d3748;
   text-align: left;
   letter-spacing: -0.01em;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .container p {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   color: #64748b;
   line-height: 1.7;
 }
@@ -110,7 +110,8 @@ form button[type="submit"] {
   width: 100%;
   background-color: #3b82f6;
   color: white;
-  padding: 0.9rem 1.5rem;
+  padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -127,7 +128,7 @@ form button[type="submit"]:hover {
 
 .demo-form {
   background: white;
-  margin: 1.5rem 0;
+  margin: 0 0 2rem;
 }
 
 .form-group {
@@ -141,31 +142,32 @@ form button[type="submit"]:hover {
   font-weight: 500;
   color: #4b5563;
   font-size: 0.9rem;
-  transition: all 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 .demo-form input {
   width: 100%;
-  padding: 0.8rem 1rem;
-  margin-bottom: 0;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1.5rem;
   border: 1px solid #e2e8f0;
   border-radius: 8px;
   font-size: 1rem;
-  transition: all 0.3s ease;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #f8fafc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
 }
 
 .demo-form input:focus {
   outline: none;
   border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.08);
   background-color: #fff;
+  transform: translateY(-1px);
 }
 
 #pricingLink {
   display: inline-block;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   text-decoration: none;
   color: #3b82f6;
   font-weight: 500;
@@ -327,7 +329,16 @@ form button[type="submit"]:hover {
   }
   
   .container {
-    padding: 2rem;
+    padding: 2.5rem;
+    margin: -2rem auto 2.5rem;
+  }
+  
+  .demo-form input {
+    margin-bottom: 1.25rem;
+  }
+  
+  .container p {
+    margin-bottom: 2rem;
   }
 }
 
@@ -416,7 +427,7 @@ form button[type="submit"]:disabled {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(8px);
+    transform: translateY(4px);
   }
   to {
     opacity: 1;
@@ -460,32 +471,7 @@ form button[type="submit"]:active {
 }
 
 .floating-label {
-  position: relative;
-}
-
-.floating-label input {
-  padding: 1rem;
-}
-
-.floating-label label {
-  position: absolute;
-  top: 0.8rem;
-  left: 1rem;
-  margin: 0;
-  transition: all 0.25s ease;
-  pointer-events: none;
-  color: #94a3b8;
-}
-
-.floating-label input:focus + label,
-.floating-label input:not(:placeholder-shown) + label {
-  transform: translateY(-1.4rem) scale(0.85);
-  color: #3b82f6;
-  font-weight: 500;
-}
-
-.floating-label input::placeholder {
-  color: transparent;
+  display: none;
 }
 
 html {
