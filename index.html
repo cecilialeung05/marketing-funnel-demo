@@ -65,16 +65,11 @@
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Here you would typically send the form data to your server
-            // For demo purposes, we'll just show the notification
-            
             const notification = document.querySelector('.notification-box');
             notification.classList.add('show');
             
-            // Clear form
             this.reset();
-            
-            // Hide notification after 5 seconds
+          
             setTimeout(() => {
                 notification.classList.remove('show');
             }, 5000);
